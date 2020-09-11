@@ -1,100 +1,87 @@
 #a {
-  width: 480px;
-  height: 75px;
   background-color: rgb(159, 43, 43);
 }
 #b {
-  width: 480px;
-  height: 150px;
   background-color: rgb(43, 47, 159);
 }
 #c {
-  width: 480px;
-  height: 125px;
-  background-color: rgb(7, 49, 31);
+  background-color: rgb(177, 225, 46);
 }
 #d {
-  width: 480px;
-  height: 125px;
   background-color: rgb(159, 43, 149);
 }
 #e {
-  width: 240px;
-  height: 250px;
-  float: left;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(63, 118, 176);
 }
 #f {
-  width: 240px;
-  height: 250px;
   background-color: rgb(247, 247, 247);
 }
 #g {
-  width: 240px;
-  height: 250px;
-  float: left;
   background-color: rgb(238, 149, 149);
 }
 #h {
-  width: 240px;
-  height: 250px;
   background-color: rgb(79, 180, 235);
 }
 #i {
-  width: 480px;
-  height: 80px;
-  background-color: rgb(45, 28, 28);
+  background-color: rgb(22, 247, 176);
 }
-@media only screen and (min-width: 768px) {
+/* tablet breakpoint */
+@media only screen and (min-width: 900px) {
   #a {
-    width: 960px;
-    height: 100px;
     background-color: rgb(58, 43, 159);
   }
   #b {
-    width: 200px;
-    height: 600px;
-    float: left;
     background-color: rgb(159, 43, 43);
   }
   #c {
-    width: 380px;
-    height: 200px;
-    float: left;
     background-color: rgb(43, 159, 49);
   }
   #d {
-    width: 380px;
-    height: 200px;
     background-color: rgb(159, 43, 155);
   }
   #e {
-    width: 190px;
-    height: 250px;
-    float: left;
     background-color: rgb(91, 43, 159);
   }
   #f {
-    width: 190px;
-    height: 250px;
-    float: left;
     background-color: rgb(140, 159, 43);
   }
   #g {
-    width: 190px;
-    height: 250px;
-    float: left;
     background-color: rgb(255, 0, 0);
   }
   #h {
-    width: 190px;
-    height: 250px;
-    float: left;
-    background-color: rgb(48, 16, 16);
+    background-color: rgb(88, 245, 195);
   }
   #i {
-    width: 760px;
-    height: 150px;
     background-color: rgb(43, 159, 118);
+  }
+}
+/* desktop breakpoint */
+@media only screen and (min-width: 1250px) {
+  #a {
+    background-color: rgb(101, 96, 135);
+  }
+  #b {
+    background-color: rgb(164, 120, 120);
+  }
+  #c {
+    background-color: rgb(101, 143, 103);
+  }
+  #d {
+    background-color: rgb(159, 109, 157);
+  }
+  #e {
+    background-color: rgb(63, 46, 87);
+  }
+  #f {
+    background-color: rgb(218, 237, 122);
+  }
+  #g {
+    background-color: rgb(252, 157, 157);
+  }
+  #h {
+    background-color: rgb(152, 228, 204);
+  }
+  #i {
+    background-color: rgb(65, 97, 86);
   }
 }
